@@ -35,6 +35,7 @@ int main(int argc, char** argv) {
 	cout << " La resta de a - b es:" << resultado;
     cout << " La multiplicacion de a * b es:" << resultado;
     cout << " La division de a / b es:" << resultado;
+    
 
 
 	return 0;
