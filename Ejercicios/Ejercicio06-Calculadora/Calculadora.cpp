@@ -4,39 +4,28 @@
 
 using namespace std;
 
-
 int main(int argc, char** argv) {
-	// Datos de Entrada
-	int a = 0;
-	int b = 0;
-	int resultado = 0;
+	int a=0;
+	int b=0;
+	int suma=0, resta=0, multiplicacion=0, divicion=0;
 	
-	cout << "Ingrese el valor de a: ";
-	cin >> a;
+	cout<<"Ingrese el primer numero:";
+	cin>>a;
 	
-	cout << endl;
+	cout<<"Ingrese el segundo numero:";
+	cin>>b;
 	
-	cout << "Ingrese el valor de b: ";
-	cin >> b;
+	suma = a + b;
+	cout<<"\nLa suma es:"<< suma;
 	
-		// Proceso
-	resultado = a+b;
-	cout << endl;
-    resultado = a-b;
-    cout << endl;
-    resultado = a*b;
-	cout << endl;
-    resultado = a/b;
-
-    // Salida
+	resta = a - b;
+	cout<<"\nLa resta es:"<< resta;
 	
-	cout << endl;
-	cout << " La suma de a + b es: " << resultado;
-	cout << " La resta de a - b es:" << resultado;
-    cout << " La multiplicacion de a * b es:" << resultado;
-    cout << " La division de a / b es:" << resultado;
-    
-
-
+	multiplicacion = a * b;
+	cout<<"\nLa multiplicacion es:"<< multiplicacion;
+	
+	divicion = a / b;
+	cout<<"\nLa divicion es:"<< divicion;
+	
 	return 0;
 }
